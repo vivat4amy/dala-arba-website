@@ -1,0 +1,7 @@
+# Block internal paths if they ever appear in the deploy bundle
+/worker/*      /404.html 404
+/_partials/*   /404.html 404
+/_archive_/*   /404.html 404
+
+# Canonical host: redirect www -> apex
+https://www.dalaarba.com/* https://dalaarba.com/:splat 301

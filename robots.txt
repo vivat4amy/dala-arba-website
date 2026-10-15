@@ -1,0 +1,21 @@
+# DALA ARBA Expeditions — robots.txt
+# https://dalaarba.com
+
+User-agent: *
+Allow: /
+
+# Block staging / draft / utility paths
+Disallow: /uploads/
+Disallow: /worker/
+Disallow: /dist/
+Disallow: /_partials/
+Disallow: /admin/
+Disallow: /preview/
+Disallow: /*?token=
+Disallow: /*?draft=
+
+# Crawl-delay for bots that respect it
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://dalaarba.com/sitemap.xml
